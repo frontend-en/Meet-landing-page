@@ -98,6 +98,10 @@ select {
   font-family: "Red Hat Display Medium", sans-serif;
 }
 
+body {
+  background-color: #FAFAFA;
+}
+
 .decor {
   position: relative;
   width: 3.5rem;
@@ -147,6 +151,11 @@ select {
   height: 1.75rem;
   margin: 0 auto;
   margin-top: 3rem;
+}
+@media (min-width: 1024px) {
+  .header__top {
+    margin-top: 5rem;
+  }
 }
 .header__avatars {
   margin-top: 3.375rem;
@@ -382,7 +391,7 @@ select {
 }
 @media (min-width: 1024px) {
   .footer {
-    padding: 7.25rem 0;
+    padding: 5.0625rem 0;
   }
 }
 .footer__decor {
@@ -395,7 +404,7 @@ select {
 }
 @media (min-width: 1024px) {
   .footer__decor {
-    transform: translateY(-255%);
+    transform: translateY(-195%);
   }
 }
 .footer__content {
